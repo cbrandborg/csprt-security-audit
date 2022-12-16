@@ -2,6 +2,9 @@
 
 # Due to limited testing, please do me the favor and test the script without listed permissions
 
+# If a GCP environment has an Organization node -> Use shell script in in export-organisation-assets
+# If a GCP environment does not have an Organization node -> Use shell script in in export-no-org
+
 ## Client GCP Prerequisites
 1. Select or create any project in client GCP environment - Project ID of this project will from here on be referered to as CUSTOMER_PROJECT_ID - Billing project could be an option
 2. Enable Cloud Asset API on CUSTOMER_PROJECT_ID

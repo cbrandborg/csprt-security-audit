@@ -59,6 +59,7 @@ gcloud organizations add-iam-policy-binding ${CUSTOMER_ORGANIZATION_ID} --member
 gcloud projects add-iam-policy-binding ${CUSTOMER_PROJECT_ID} --member \
     serviceAccount:service-${CUSTOMER_PROJECT_NUM}@gcp-sa-cloudasset.iam.gserviceaccount.com \
     --role roles/serviceusage.serviceUsageConsumer
+    
 # Setting permissions for cloud asset service agent in Devoteam BigQuery Project
 echo "Setting BigQuery Editor and BigQuery User for serviceAccount:service-${CUSTOMER_PROJECT_NUM}@gcp-sa-cloudasset.iam.gserviceaccount.com in ${BQ_PROJECT_ID}"
 gcloud projects add-iam-policy-binding ${BQ_PROJECT_ID} --member \
