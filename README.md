@@ -14,7 +14,7 @@
 4. Give your user (or a service agent) the following roles on client organisation - Here on referred to as ORGANIZATION_ID:
 * roles/cloudasset.owner
 
-### Devoteam GCP Prerequisites
+### Own GCP Prerequisites
 1. Create a project in GCP - Project ID of this project will from here on be referered to as BQ_PROJECT_ID
 2. Give your user (or group) the following roles on BQ_PROJECT_ID:
 * roles/bigquery.dataEditor
